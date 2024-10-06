@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.block {
+    height: 100vh;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator-block {
+    width: 300px;
+    height: 380px;
+    background-color: white;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+.display {
+    height: 20%;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    margin-bottom: 4px;
+}
+
+.display-input {
+    border: none;
+    width:288px;
+    height: 70px;
+    margin: 0 2px;
+    font-size: 40px;
+}
+
+.calculator {
+    position: relative;
+}
+
+.sybol {
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(158, 158, 158);
+    justify-content: center;
+    align-items: center;
+    margin: 1.5px;
+}
+
+
+.sybol:hover {
+    cursor: pointer;
+}
+
+.sybol-5 {
+    position: absolute;
+    top: 60px;
+    right: 0;
+}.sybol-6 {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}.sybol-7 {
+    position: absolute;
+    top: 180px;
+    right: 0;
+}.sybol-8 {
+    position: absolute;
+    top: 240px;
+    right: 0;
+}
+
+.numbers-block {
+    width: 240px;
+    height: 240px;
+    flex-wrap: wrap;
+}
+
+.number {
+    width: 75px;
+    height: 55px;
+    border: 1px solid rgb(158, 158, 158);
+    justify-content: center;
+    align-items: center;
+    margin:1.5px;
+}
+
+.number:hover {
+    cursor: pointer;
+}
+
+.number-0 {
+    width: 100%;
+}
